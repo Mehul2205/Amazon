@@ -17,21 +17,21 @@ This Code is written in Turbo c++
 
 ## Some Prerequisite Statement you should need to know
 
-1. graphdefaults      -
-2. setbkcolor         -
-3. setcolor           -
-4. outtextxy          -
-5. arc                -
-6. line               -
-7. pieslice           -
-8. circle             -
-9. rectangle          -
-10. settextstyle      -
-11. setusercharsize   -
-12. initgraph         -
-13. sleep             -
-14. delay             -
-15. closegraph        -
+1. graphdefaults      - Function resets all graphics settings to their defaults.
+2. setbkcolor         - function changes current background color 
+3. setcolor           - function which is used to set the current drawing color to the new color
+4. outtextxy          - function which displays the text or string at a specified point (x, y) on the screen
+5. arc                - function which draws an arc with center at (x, y) and given radius
+6. line               - function is used to draw a line from a point(x1,y1) to point(x2,y2)
+7. pieslice           - pieslice() draws and fills a pie slice with center at (x, y) and given radius r.
+8. circle             - function which draws a circle with center at (x, y) and given radius.
+9. rectangle          - rectangle() is used to draw a rectangle.
+10. settextstyle      - function which is used to change the way in which text appears.
+11. setusercharsize   - you specify factors by which the width and height are scaled.
+12. initgraph         - Initializes the graphics system by loading a graphics driver from disk (or validating a registered driver), and putting the system into graphics mode.
+13. sleep             - function makes the program sleep for x seconds
+14. delay             - function is used to hold the program's execution for given number of milliseconds
+15. closegraph        - function which closes the graphics mode, deallocates all memory allocated by graphics system and restores the screen to the mode it was in before you called initgraph.
 
 ## ScreenShots of the Code
 
